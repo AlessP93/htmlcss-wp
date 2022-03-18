@@ -36,6 +36,7 @@ nav li{
 nav a{
     text-decoration: none;
     text-transform: uppercase;
+    color: grey;
 }
 
 
@@ -49,21 +50,22 @@ nav a{
 }
 
 .box-3{
-    background-color: blue;
     min-height: 500px;
     margin-bottom: 20px;
     margin-top: 20px;
+    color: grey;
 }
 
 .titolo-1{
-    background-color: lightblue;
+    
     min-height: 100px;
     margin-bottom: 20px;
     padding: 30px;
+    
 }
 
 .left, .right{
-    background-color: lightblue;
+    
     width: 20%;
     float: left;
     min-height: 400px;
@@ -71,7 +73,7 @@ nav a{
 }
 
 .middle{
-    background-color: lightblue;
+   
     float: left;
     width: calc(60% - 20px);
     min-height: 400px;
@@ -79,10 +81,11 @@ nav a{
 }
 
 .box-4{
-    background-color: rgb(160, 49, 160);
+    text-align: center;
     height: 50px;
     margin-bottom: 20px;
     margin-top: 20px;
+    margin: auto;
 
 }
 
