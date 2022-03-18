@@ -41,7 +41,9 @@ nav a{
 
 
 .hero{
+    background-image: url("CSS/img/banner.jpg");
     width: 1280px;
+    height: 500px;
 }
 
 .hero .inner{
