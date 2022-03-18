@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', serif;
+}
+
 .container{
     max-width: 1280px;
     margin: auto;
@@ -16,24 +20,32 @@
     clear: both;
 }
 
-.box{
+
+.logo img{
+    width: 160px;
     
-    height: 100px;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 
-.logo{
-    background-image: url("CSS/img/logo.png");
-    width: 100px;
+nav li{
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 
-.box-2{
-    background-color: rgb(253, 253, 158);
-    height: 500px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.hero img{
+    width: 1280px;
+}
+
+.hero .inner{
+    display: inline-block;
+    vertical-align: bottom;
 }
 
 .box-3{
@@ -47,6 +59,7 @@
     background-color: lightblue;
     min-height: 100px;
     margin-bottom: 20px;
+    padding: 30px;
 }
 
 .left, .right{
