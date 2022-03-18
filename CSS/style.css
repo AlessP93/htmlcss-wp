@@ -41,14 +41,17 @@ nav a{
 
 
 .hero{
-    background-image: url("CSS/img/banner.jpg");
+    background-image: url("img/banner.jpg");
     width: 1280px;
-    height: 500px;
+    height: 560px;
 }
 
 .hero .inner{
     display: inline-block;
     vertical-align: bottom;
+    padding-top: 400px;
+    padding-right: 40px;
+    color: white;
 }
 
 .box-3{
@@ -59,7 +62,6 @@ nav a{
 }
 
 .titolo-1{
-    
     min-height: 100px;
     margin-bottom: 20px;
     padding: 30px;
@@ -67,7 +69,6 @@ nav a{
 }
 
 .left, .right{
-    
     width: 20%;
     float: left;
     min-height: 400px;
@@ -75,8 +76,7 @@ nav a{
 }
 
 .middle{
-   
-    float: left;
+   float: left;
     width: calc(60% - 20px);
     min-height: 400px;
     margin:auto 10px;
@@ -91,7 +91,9 @@ nav a{
 
 }
 
-
+.hearts{
+    background-color: red;
+}
 
 
 
