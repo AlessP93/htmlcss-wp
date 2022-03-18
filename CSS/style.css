@@ -17,11 +17,17 @@
 }
 
 .box{
-    background-color: violet;
+    
     height: 100px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
+.logo{
+    background-image: url("CSS/img/logo.png");
+    width: 100px;
+}
+
 
 .box-2{
     background-color: rgb(253, 253, 158);
