@@ -44,14 +44,15 @@ nav a{
     padding-bottom: 30px;
     padding-left: 30px;
     background-position: center;
+    
 }
 
 .hero .inner{
     display: inline-block;
     vertical-align: bottom;
-    padding-top: 400px;
-    padding-right: 40px;
+    padding : 300px 40px 60px;
     color: white;
+    max-width: 560px;
 }
 
 .img-hero{
